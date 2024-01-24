@@ -1,0 +1,21 @@
+#gameContainer {
+    width: 850px;
+    height: 930px;
+    margin: 0 auto;
+    background-image: url(desktop-wallpaper-you-haven-t-played-these-pokemon-games-but-you-should-pokemon-gba.jpg);
+    position:relative;
+    overflow: hidden;
+  }
+   
+  #player {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/face.png);
+    background-size: 100%;
+    background-position: center;
+    position:absolute;
+    z-index: 1;
+  }
+  body {
+    background-color: black;
+  }
